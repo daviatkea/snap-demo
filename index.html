@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll-snap</title>
+    <link rel="stylesheet" href="prism.css" />
+    <link rel="stylesheet" href="exercise.css" />
+    <link rel="stylesheet" href="din.css" />
+  </head>
+  <body>
+    <aside>
+      <h2>Snappy container</h2>
+      <ol>
+        <li>
+          Lav <code>.snappy-container</code> til en scroll-snap-container vha.
+          <code>scroll-snap-type</code>.
+        </li>
+        <li>Sørg for, at alle <code>section</code>'er fylder 100% i højden.</li>
+        <li>
+          Tilføj <code>scroll-snap-align</code> til <code>section</code>, for at
+          fortælle browseren, hvor de skal "snappe" til.
+        </li>
+      </ol>
+      <figure class="video">
+        <video
+          src="scroll-snap.mp4"
+          preload="metadata"
+          loop
+          muted
+          autoplay
+          controls
+        ></video>
+        <figcaption>Reference</figcaption>
+      </figure>
+    </aside>
+    <main>
+      <div class="snappy-container">
+        <section>
+          <div class="content">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              ipsa adipisci animi minus temporibus possimus rerum odio totam
+              vitae sequi labore laudantium nulla harum consectetur, illo
+              similique facilis.
+            </p>
+          </div>
+        </section>
+        <section>
+          <div class="content">
+            <h2>Lorem, ipsum.</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              ipsa adipisci animi minus temporibus possimus rerum odio totam
+              vitae sequi labore laudantium nulla harum consectetur, illo
+              similique facilis, velit culpa.
+            </p>
+          </div>
+        </section>
+        <section>
+          <div class="content">
+            <h2>Lorem, ipsum.</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              ipsa adipisci animi minus temporibus possimus rerum odio totam
+              vitae sequi labore laudantium nulla harum consectetur, illo
+              similique facilis, velit culpa.
+            </p>
+          </div>
+        </section>
+      </div>
+      <div class="editor">
+        <textarea
+          aria-label="sticky code"
+          autocorrect="off"
+          autocomplete="off"
+          spellcheck="false"
+          autocapitalize="off"
+          class="prism-live language-css"
+        >
+/* Skriv din kode her */
+.snappy-container {
+  
+}</textarea
+        >
+        <style class="style"></style>
+      </div>
+    </main>
+
+    <script src="script/bliss.js"></script>
+    <script src="script/prism.js"></script>
+    <script src="script/prism-live.js"></script>
+    <script src="script/prism-live-markup.js"></script>
+    <script src="script/prism-live-css.js"></script>
+    <script type="module" src="script/custom.js"></script>
+  </body>
+</html>
